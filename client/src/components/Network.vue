@@ -90,11 +90,10 @@ export default {
         setTimeout(function () {
           clearInterval(interval)
           alert('Done, Check logs for full details')
-          setTimeout(function () {
-            count.value = 0;
-          }, 5000);
         }, counts.value * 4000);
     }
+
+    count.value = 0;
   }
 
 
