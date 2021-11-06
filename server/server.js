@@ -16,7 +16,7 @@ app.use(cors());
 app.use('/api/network', apiRoutes);
 
 
-app.listen(3000, () => {
+app.listen(process.env.PORT || 3000, () => {
     console.log('waiting for ip address')
 })
 
