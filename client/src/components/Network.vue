@@ -39,8 +39,8 @@ export default {
     //make request
     const reg = /down/;
 
-    const url = 'http://mvpnet.herokuapp.com/api/network';
-    const url2 = 'http://mvpnet.herokuapp.com/api/network/bare';
+    const url = 'https://mvpnet.herokuapp.com/api/network';
+    const url2 = 'https://mvpnet.herokuapp.com/api/network/bare';
 
     //health analysid
         const handleReq = async (ip) => {
