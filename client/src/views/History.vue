@@ -26,8 +26,8 @@ export default {
   setup() {
     //fetch logs
     const data = ref('');
-    const url = 'api/network/logs';
-    const url2 = 'api/network/logs/del';
+    const url = 'http://mvpnet.herokuapp.com/api/network/logs';
+    const url2 = 'http://mvpnet.herokuapp.com/api/network/logs/del';
 
     const fetchLogs = async (url) => {
       const res = await axios.get(url);
