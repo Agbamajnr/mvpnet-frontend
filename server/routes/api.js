@@ -1,5 +1,7 @@
 const exec = require('child_process').exec;
 var fs = require('fs');
+const sys = require('sys');
+const util = require('util');
 const router = require('express').Router();
 const os = require('os');
 var ping = require('ping');
