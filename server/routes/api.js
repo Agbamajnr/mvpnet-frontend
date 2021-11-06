@@ -76,7 +76,7 @@ router.post('/',(req, res) => {
 });
 
 router.get('/logs', (req, res) => {
-   fs.readFile('./logs/logs.txt', 'utf-8', (err, data) => {
+   fs.readFile('../logs/logs.txt', 'utf-8', (err, data) => {
      if (err) {
        console.log(err);
      } else {
